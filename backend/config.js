@@ -19,6 +19,11 @@ export const config = {
     port: requires("DB_PORT"),
   },
 
+  naver: {
+    client_id: requires("NAVER_CLIENT"),
+    client_secret: requires("NAVER_CLIENT_SECRET"),
+  },
+
   //   aws: {
   //     region: requires("REGION"),
   //     access_key: requires("ACCESS_KEY"),
